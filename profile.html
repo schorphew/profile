@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 20px;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ddd;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    section {
+      margin-top: 30px;
+    }
+    section h2 {
+      border-left: 5px solid #4a90e2;
+      padding-left: 10px;
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .contact p {
+      margin: 6px 0;
+    }
+    .comments textarea {
+      width: 100%;
+      min-height: 120px;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+    .comments button {
+      margin-top: 10px;
+      padding: 10px 18px;
+      font-size: 14px;
+      background: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .comments button:hover {
+      background: #357abd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Profile Header -->
+    <header>
+      <img src="https://media.discordapp.net/attachments/945572030017839114/1450751568797237299/7F88A0D2-08D1-453D-AB78-23C5FDC1B93F.jpg?ex=6943ad2f&is=69425baf&hm=61fb10a7c6c6ae2c6336779c9a39b278bc24b324218a28130e3b05571bd21dde&=&format=webp&width=499&height=887" alt="Profile Picture" />
+      <div>
+        <h1>Norawich Chimnoy</h1>
+        
+      </div>
+    </header>
+
+    <!-- Education Section -->
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>Bachelor of Science in Computer Science – King Mongkut's University of Technology North Bangkok</li>
+        <li>High School – Yothinburana School</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Java</li>
+        <li>Basic SQL & Database Design</li>
+        <li>Problem Solving & Teamwork</li>
+        <li>Database Management</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <!-- Project Experiences Section -->
+    <section>
+      <h2>Project Experiences</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Designed and developed a personal profile website using HTML and CSS</li>
+        <li><strong>Student Management System:</strong> Simple CRUD application for managing student data</li>
+        <li><strong>Data Analysis Project:</strong> Analyzed and visualized data using Python</li>
+        <li><strong>Data Analysis Project:</strong> Analyzed datasets using Python</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: norwitc.ch@gmail.com</p>
+      <p>Tel: 095-708-7258</p>
+      <p>Instagram: martnrw</p>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments">
+      <h2>Comments</h2>
+      <textarea placeholder="Leave your comment here..."></textarea>
+      <br />
+      <button type="button">Submit</button>
+    </section>
+  </div>
+</body>
+</html>
